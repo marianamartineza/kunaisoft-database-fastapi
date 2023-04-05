@@ -12,6 +12,4 @@ pip install fastapi uvicorn
 
 # instruccion consola ejecutar un archivo
 uvicorn main:api --reload
-
-# direccion servidor
 http://127.0.0.1:8000
