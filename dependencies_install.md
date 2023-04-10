@@ -30,3 +30,16 @@ create_tables()
 # parte 3
 pip install "pydantic[email]"
 pip install "passlib[bcrypt]"
+
+# parte 4
+<!-- generar token -->
+openssl rand -hex 32
+
+<!-- agregar al env -->
+# Auth
+ACCESS_TOKEN_EXPIRE_MINUTES=1440
+SECRET_KEY=e97965045c7df14cb4d5760371e7325104a8f33ad5d00c0a506d6fb09d0047db
+
+pip install "python-jose[cryptography]"
+pip install python-multipart
+
