@@ -43,3 +43,9 @@ SECRET_KEY=e97965045c7df14cb4d5760371e7325104a8f33ad5d00c0a506d6fb09d0047db
 pip install "python-jose[cryptography]"
 pip install python-multipart
 
+# parte 5 
+<!-- crud todo -->
+
+# parte 6 testing 
+pip install -U pytest
+pip install requests
